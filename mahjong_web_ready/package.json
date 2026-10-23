@@ -1,0 +1,14 @@
+{
+  "name": "tomodachi-riichi-mahjong",
+  "version": "3.6.0",
+  "private": true,
+  "description": "Online riichi mahjong prototype with configurable 3/4 player rooms, yakuman, dora, sanma north extraction, conditional action buttons, dealer/child scoring, and responsive green-table UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
